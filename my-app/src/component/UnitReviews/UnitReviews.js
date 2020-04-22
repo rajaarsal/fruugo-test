@@ -13,18 +13,20 @@ const UnitReviews = () => {
     fiveStars && (
       <>
         <table>
-          <tr>
-            <th>Display Name</th>
-            <td>{displayName}</td>
-          </tr>
-          <tr>
-            <th>Stars out of 5</th>
-            <td>{averageScore}</td>
-          </tr>
-          <tr>
-            <th>Number of 5 star reviews</th>
-            <td>{fiveStars}</td>
-          </tr>
+          <tbody>
+            <tr>
+              <th>Display Name</th>
+              <td>{displayName}</td>
+            </tr>
+            <tr>
+              <th>Stars out of 5</th>
+              <td>{averageScore}</td>
+            </tr>
+            <tr>
+              <th>Number of 5 star reviews</th>
+              <td>{fiveStars}</td>
+            </tr>
+          </tbody>
         </table>
         <h1>{reviewVerdict}</h1>
       </>
